@@ -1,0 +1,51 @@
+#bullet-editor {
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+.image-bullet {
+    width: 100%;
+    height: auto;
+    background: #ffc7c7;
+    position: relative;
+    --top: 0%;
+    --left: 0%;
+}
+
+.sticky-bullet {
+    position: sticky;
+    top: 60px;
+}
+
+.image-bullet img {
+    width: 100%;
+    height: 100%;
+}
+
+.image-bullet .bullet {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: var(--left);
+    top: var(--top);
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 100%;
+    background: #4bbfff;
+    border: 2px solid white;
+}
+
+.image-bullet .bullet.active {
+    background: #d33232;
+}
+
+
+.bullet-row-data {
+    background: #e8f6ff;
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+    margin-top: 0.5rem;
+}
+.bullet-row-data.active {
+    background: #ffefef;
+}

@@ -1,0 +1,15 @@
+add_bullet:
+  path: mdn_image_bullet/add/{product_id}
+  methods: [GET,POST]
+  defaults:
+    _controller: 'ImageBullet\Controller\ImageBulletController::createImageBullet'
+remove_bullet:
+  path: mdn_image_bullet/remove/{id}
+  methods: [GET,POST]
+  defaults:
+    _controller: 'ImageBullet\Controller\ImageBulletController::removeImageBullet'
+save_bullet:
+  path: mdn_image_bullet/save/{id}
+  methods: [GET,POST]
+  defaults:
+    _controller: 'ImageBullet\Controller\ImageBulletController::saveImageBullet'
