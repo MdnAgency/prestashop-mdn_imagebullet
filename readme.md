@@ -41,3 +41,8 @@ __Examples of use:__
 **Images are not being saved?**
 
 The img/image_bullet folder may not have been created. If that's the case, create it manually.
+
+___
+
+## Contributors
+[Loris Pinna](https://github.com/DevLoris)
