@@ -22,3 +22,22 @@ __Exemples d'utilisation :__
 Le dossier img/image_bullet peut ne pas s'être créé. Si c'est le cas, créez-le à la main.
 
 ___
+
+## 🇬🇧 How does it work?
+The Image Bullet module allows you to add an additional tab on Prestashop product pages, allowing you to add bubbles to images to describe product features and highlight its strong points.
+
+The module adds a tab for managing images in the back office and adding clickable bullets that can open a new tab.
+
+__Examples of use:__
+- Highlighting technical elements of a product
+- Describing components or ingredients
+
+### Installation
+1. Go to Releases to download the latest version: https://github.com/MdnAgency/prestashop-mdn_imagebullet/releases/
+2. Upload the archive to your Prestashop
+3. Go to the Image Bullet section of your Prestashop product pages
+
+### Issues
+**Images are not being saved?**
+
+The img/image_bullet folder may not have been created. If that's the case, create it manually.
